@@ -1,0 +1,297 @@
+html,body{
+	margin:0;
+	padding: 0;
+	width: 100%;
+}
+body{
+	height: 100vh;
+	background: #fff;
+	font-size: 18PX;
+	font-family:proxima-nova,sans-serif;
+}
+.padding{
+	padding:0;
+}
+
+/*header area start*/
+header{
+	width:100%;
+	height:10vh;
+	
+	background-size:cover;
+}
+.wrapper{
+	width:100%;
+	height:100vh;
+	background: url(img/sabbir3.jpg) no-repeat 50% 10%;
+	background-size:cover;
+	/*background: linear-gradient(25deg, rgb(22, 82, 141) 15%, rgb(38, 167, 213) 97%);*/
+}
+.wrapper-f{
+	/*feature area work
+	height: 50%;
+	
+	background: linear-gradient(25deg, rgb(22, 82, 141) 15%, rgb(38, 167, 213) 97%);*/
+}
+.logo{
+	position:fixed;
+	float:left;
+	margin:13px 36px;
+	color:#25272c;
+	font-weight:bold;
+	font-size:24px;
+}
+nav{
+	position:fixed;
+	width:100%;
+	z-index: 1;
+
+}
+nav ul{
+	
+	list-style:none;
+	background:#00a8ff;
+	overflow:hidden;
+	color:#fff;
+	padding:10px;
+	text-align:center;
+	padding-left: 40%;
+	transition:0.3s;
+	
+}
+nav.black ul{
+	background:#5D86BE;
+	padding:8px ;
+	padding-left: 40%;
+
+}
+
+nav.black ul li a{
+	
+	color: #fff;
+	
+}
+nav.black ul li a:hover{
+	
+	border-bottom: 2px solid #656565;
+	color: #656565;
+	
+}
+nav ul li{
+	display:inline-block;   /* menu vartically kaj korbe jemon ta float left/right e hoi */
+	right: 0;
+	padding: 8px 28px;
+}
+nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	font-size:14px;
+	font-weight: bold;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+	color:#fff;
+	
+}
+.menu-icon{
+	width:100%;
+	background:#000;
+	text-align: right;
+	box-sizing:border-box;
+	padding:15px 24px;
+	cursor:pointer;
+	color:#fff;
+	display:none;
+}
+
+@media (max-width:580px){
+	.logo{
+		position:fixed;
+		top:0;
+		margin-top:10px;
+		color: #fff;
+		text-align: center;
+	}
+	nav ul{
+		max-height:0px;
+		background:#000;
+		
+	}
+	nav.black ul{
+		background:#000;
+		padding: 0;
+	}
+	.showing{
+		max-height:35em;
+		padding:0;
+	}
+	nav ul li{
+		box-sizing:border-box;
+		width:100%;
+		padding:24px 0;
+		text-align: center;
+	}
+	.menu-icon{
+		display:block;
+	}
+}
+@media (max-width:780px){
+	.logo{
+		position:fixed;
+		top:0;
+		margin-top:10px;
+		color: #fff;
+		text-align: center;
+	}
+	nav ul{
+		max-height:0px;
+		background:#000;
+		
+	}
+	nav.black ul{
+		background:#000;
+		padding: 0;
+	}
+	.showing{
+		max-height:35em;
+		padding:0;
+	}
+	nav ul li{
+		box-sizing:border-box;
+		width:100%;
+		padding:24px 0;
+		text-align: center;
+	}
+	.menu-icon{
+		display:block;
+	}
+}
+/*menu button area */
+.bt{
+	width: 200px;
+	background-color: #f4aa0b;
+	font-weight: bold;
+	padding: 10px 28px;
+	text-transform: uppercase;
+	border: 0;
+	box-shadow:inset 0 -3px 0 0 rgba(0,0,0,.2)
+}
+/*header area end*/
+/*content   area start */
+.content{
+	
+	width:90%;
+	margin:4em auto;
+	font-size:20px;
+	line-height:30px;
+	text-align:justify;
+}
+.content h1{
+	font-size: 3em;
+margin: 0.67em 0;
+color: #121009;
+}
+.content p{
+	
+
+color: #121009;
+}
+
+/*content   area end */
+
+/*service   area start */
+.service{
+	background-color: #e7e8ec;
+}
+.service h1{
+	text-align: center;
+}
+.service p.p1{
+	text-align: center;
+	color:#666666;
+	font-style: italic;
+	font-weight: 500;
+
+}
+
+.text-color-orange{
+	color: #FF8533;
+}
+.fa-stack.fa-4x.bounceIn {
+    font-size: 55px;
+}
+.ser span{
+	text-align: center;
+}
+
+.fa-stack.fa-4x.bounceIn {
+
+    font-size: 55px;
+    margin: 0% 30%;
+
+}
+.text-color-pink{
+color:#e84393;
+}
+.text-color-green{
+	color:#44bd32;
+}
+.text-color-parpel{
+	color:#8c7ae6 ;
+}
+
+.text-color-brown{
+	color: #c23616;
+}
+.text-color-pest{
+    color: #00a8ff;
+}
+
+.text-color-red{
+	color:#e84118; 
+}
+
+.text-color-black{
+	color:#192a56; 
+}
+.ser p.web{
+	font-size: 18px;
+	text-align: center;
+	color:#666666;
+}
+.ser p{
+	color:#666666;
+	font-size: 16px;
+	font-style: none;
+	text-align: center;
+}
+.ser{
+	margin-top: 20px;
+}
+/*service   area end */
+
+
+
+
+
+
+
+
+
+
+
+/*foo area*/
+.foo{
+	height: 50px;
+	
+	background-color: #071A2E;
+}
+.foo p{
+	color: #A1B6CB;
+	text-align: center;
+	font-size: 12px;
+ padding-top: 15px;
+ font-weight: 700;
+}
